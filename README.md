@@ -2,7 +2,7 @@
 
 ## 🔐 Clipboard Security Tool
 
-**Price:** $1 per license  
+**Price:** $1 per license/limited time free  
 
 ### 🚀 Installation
 
