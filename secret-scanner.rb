@@ -8,7 +8,7 @@ class SecretScanner < Formula
   homepage "https://github.com/sanFransisco/homebrew-tap"
   url "https://github.com/sanFransisco/homebrew-tap/releases/download/v1.0.0/secret-scanner-v1.0.0.tar.gz"
   version "1.0.0"
-  sha256 "ea65b5f24081e41aee882cc1004520b224a0a636b205a8a793513d9081eb748d"
+  sha256 "33857910855416d39ae928072c6c2de489343add1fb8db64dfb45b8bfc0c6d02"
   license "Commercial"
 
   depends_on "node"
