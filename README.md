@@ -53,7 +53,7 @@ mkdir -p ~/.secret-scanner
 
 ### 📞 Support
 
-- **Email:** yalibar1121@gmil.com
+- **Email:** yalibar1121@gmail.com
 
 ---
 
