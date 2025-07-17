@@ -53,10 +53,8 @@ mkdir -p ~/.secret-scanner
 
 ### 📞 Support
 
-- **Email:** your-email@example.com
-- **LinkedIn:** https://linkedin.com/in/your-profile
-- **GitHub:** https://github.com/your-github-username/secret-scanner
+- **Email:** yalibar1121@gmil.com
 
 ---
 
-*Created by [your-github-username](https://linkedin.com/in/your-profile) - Protecting your secrets, one clipboard at a time* 🛡️
+*Created by [sanFransisco](https://linkedin.com/in/your-profile) - Protecting your secrets, one clipboard at a time* 🛡️
