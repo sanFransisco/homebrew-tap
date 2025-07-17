@@ -6,9 +6,9 @@
 class SecretScanner < Formula
   desc "Clipboard monitoring tool that detects and sanitizes leaked secrets"
   homepage "https://github.com/sanFransisco/homebrew-tap"
-  url "https://github.com/sanFransisco/homebrew-tap/releases/download/v1.0.2/secret-scanner-v1.0.2.tar.gz"
-  version "1.0.2"
-  sha256 "1092bcf363e8709deb3d8c8a7e0a9470a655e28a11b592eea4ea07fdc7b9b450"
+  url "https://github.com/sanFransisco/homebrew-tap/releases/download/v1.0.3/secret-scanner-v1.0.3.tar.gz"
+  version "1.0.3"
+  sha256 "77dedfa877bd97945614b1f0d2cf1864b08681a365c88e2f49684afbaf0bc016"
   license "Commercial"
 
   depends_on "node"
@@ -16,6 +16,9 @@ class SecretScanner < Formula
   def install
     # Install all files to libexec
     libexec.install Dir["*"]
+    
+    # Install npm dependencies
+    system "npm", "install", "--prefix", libexec, "--only=production"
     
     # Create symlink for the main executable
     bin.install_symlink libexec/"decrypt-runner.js" => "secret-scanner"
@@ -26,7 +29,7 @@ class SecretScanner < Formula
 
   def caveats
     <<~EOS
-      🔐 Secret Scanner v1.0.2 - Clipboard Security Tool
+      🔐 Secret Scanner v1.0.3 - Clipboard Security Tool
       
       💰 Price: $1 per license
       📧 Contact: yalibar1121@gmail.com
