@@ -3,8 +3,6 @@
 ## 🔐 Clipboard Security Tool
 
 **Price:** $1 per license  
-**Contact:** your-email@example.com  
-**LinkedIn:** https://linkedin.com/in/your-profile  
 
 ### 🚀 Installation
 
