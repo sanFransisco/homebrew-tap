@@ -23,8 +23,7 @@ secret-scanner
 
 Secret Scanner requires a license ($1):
 
-- **Contact:** your-email@example.com
-- **LinkedIn:** https://linkedin.com/in/your-profile
+- **Contact:** yalibar1121@gmail.com
 - **Fast delivery:** License sent within 24 hours
 
 ### 📁 License Setup
