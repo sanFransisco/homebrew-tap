@@ -1,14 +1,14 @@
 # Secret Scanner - Clipboard Security Tool
-# Created by: your-github-username
+# Created by: sanFransisco
 # Contact: https://linkedin.com/in/your-profile
 # Price: $1
 
 class SecretScanner < Formula
   desc "Clipboard monitoring tool that detects and sanitizes leaked secrets"
   homepage "https://github.com/sanFransisco/homebrew-tap"
-  url "https://github.com/sanFransisco/homebrew-tap/releases/download/v1.0.1/secret-scanner-v1.0.1.tar.gz"
-  version "1.0.1"
-  sha256 "84d289365be75462b6156a802b0ce1de1d5065023485ac85684bdd68ef9bed68"
+  url "https://github.com/sanFransisco/homebrew-tap/releases/download/v1.0.2/secret-scanner-v1.0.2.tar.gz"
+  version "1.0.2"
+  sha256 "1092bcf363e8709deb3d8c8a7e0a9470a655e28a11b592eea4ea07fdc7b9b450"
   license "Commercial"
 
   depends_on "node"
@@ -16,7 +16,7 @@ class SecretScanner < Formula
   def install
     # Install all files to libexec
     libexec.install Dir["*"]
-    system "npm", "install", "--prefix", libexec
+    
     # Create symlink for the main executable
     bin.install_symlink libexec/"decrypt-runner.js" => "secret-scanner"
     
@@ -26,15 +26,15 @@ class SecretScanner < Formula
 
   def caveats
     <<~EOS
-      🔐 Secret Scanner v1.0.0 - Clipboard Security Tool
+      🔐 Secret Scanner v1.0.2 - Clipboard Security Tool
       
       💰 Price: $1 per license
-      📧 Contact: your-email@example.com
+      📧 Contact: yalibar1121@gmail.com
       🔗 LinkedIn: https://linkedin.com/in/your-profile
       
       🚀 To get started:
       1. Purchase a license ($1)
-      2. Contact your-email@example.com for your license file
+      2. Contact yalibar1121@gmail.com for your license file
       3. Place license at: ~/.secret-scanner/license.json
       4. Run: secret-scanner
       
@@ -55,9 +55,9 @@ class SecretScanner < Formula
       All processing happens locally. No data sent to external servers.
       
       📞 Support:
-      • Email: your-email@example.com
+      • Email: yalibar1121@gmail.com
       • LinkedIn: https://linkedin.com/in/your-profile
-      • GitHub: https://github.com/your-github-username/secret-scanner
+      • GitHub: https://github.com/sanFransisco/homebrew-tap
     EOS
   end
 
