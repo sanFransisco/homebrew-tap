@@ -6,9 +6,9 @@
 class SecretScanner < Formula
   desc "Clipboard monitoring tool that detects and sanitizes leaked secrets"
   homepage "https://github.com/sanFransisco/homebrew-tap"
-  url "https://github.com/sanFransisco/homebrew-tap/releases/download/v1.0.3/secret-scanner-v1.0.3.tar.gz"
-  version "1.0.3"
-  sha256 "77dedfa877bd97945614b1f0d2cf1864b08681a365c88e2f49684afbaf0bc016"
+  url "https://github.com/sanFransisco/homebrew-tap/releases/download/v1.0.4/secret-scanner-v1.0.4.tar.gz"
+  version "1.0.4"
+  sha256 "8515ad78f624af9e72208a2c109ecfe5a086732a8d4eb2745d24fe01b15e8f05"
   license "Commercial"
 
   depends_on "node"
@@ -29,7 +29,7 @@ class SecretScanner < Formula
 
   def caveats
     <<~EOS
-      🔐 Secret Scanner v1.0.3 - Clipboard Security Tool
+      🔐 Secret Scanner v1.0.4 - Clipboard Security Tool
       
       💰 Price: $1 per license
       📧 Contact: yalibar1121@gmail.com
