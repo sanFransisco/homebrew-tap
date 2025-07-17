@@ -8,7 +8,7 @@
 
 ```bash
 # Add this tap
-brew tap your-github-username/tap
+brew tap sanFransisco/homebrew-tap
 
 # Install Secret Scanner
 brew install secret-scanner
