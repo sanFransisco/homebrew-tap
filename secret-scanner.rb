@@ -16,7 +16,7 @@ class SecretScanner < Formula
   def install
     # Install all files to libexec
     libexec.install Dir["*"]
-    
+    system "npm", "install", "--prefix", libexec
     # Create symlink for the main executable
     bin.install_symlink libexec/"decrypt-runner.js" => "secret-scanner"
     
