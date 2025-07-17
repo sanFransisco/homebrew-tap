@@ -5,8 +5,8 @@
 
 class SecretScanner < Formula
   desc "Clipboard monitoring tool that detects and sanitizes leaked secrets"
-  homepage "https://github.com/your-github-username/secret-scanner"
-  url "https://github.com/your-github-username/secret-scanner/releases/download/v1.0.0/secret-scanner-v1.0.0.tar.gz"
+  homepage "https://github.com/sanFransisco/homebrew-tap"
+  url "https://github.com/sanFransisco/homebrew-tap/releases/download/v1.0.0/secret-scanner-v1.0.0.tar.gz"
   version "1.0.0"
   sha256 "ea65b5f24081e41aee882cc1004520b224a0a636b205a8a793513d9081eb748d"
   license "Commercial"
